@@ -1,7 +1,7 @@
 <AssetPackage Name="tatisoft-lecu" Version="0.1.0">
 	<ItemSettings>
 		<ContentType>SCENERY</ContentType>
-		<Title>Cuatro Vientos </Title>
+		<Title>Cuatro Vientos</Title>
 		<Manufacturer/>
 		<Creator>ardelval</Creator>
 	</ItemSettings>
@@ -15,8 +15,8 @@
 			<Flags>
 				<FSXCompatibility>false</FSXCompatibility>
 			</Flags>
-			<AssetDir>PackageDefinitions\tatisoft-lecu\ContentInfo</AssetDir>
-			<OutputDir>ContentInfo\tatisoft-lecu</OutputDir>
+			<AssetDir>PackageDefinitions\avaldesign-lecu\ContentInfo</AssetDir>
+			<OutputDir>ContentInfo\avaldesign-lecu</OutputDir>
 		</AssetGroup>
 		<AssetGroup Name="LecuControlTower">
 			<Type>BGL</Type>

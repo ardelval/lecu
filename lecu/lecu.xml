@@ -2,7 +2,7 @@
 	<OutputDirectory>.</OutputDirectory>
 	<TemporaryOutputDirectory>_PackageInt</TemporaryOutputDirectory>
 	<Packages>
-		<Package>PackageDefinitions\tatisoft-lecu.xml</Package>
+		<Package>PackageDefinitions\avaldesign-lecu.xml</Package>
 	</Packages>
 </Project>
 

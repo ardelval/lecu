@@ -3,7 +3,7 @@
 		<ContentType>SCENERY</ContentType>
 		<Title>Cuatro Vientos</Title>
 		<Manufacturer/>
-		<Creator>ardelval</Creator>
+		<Creator>avaldesign</Creator>
 	</ItemSettings>
 	<Flags>
 		<VisibleInStore>false</VisibleInStore>
@@ -18,46 +18,6 @@
 			<AssetDir>PackageDefinitions\avaldesign-lecu\ContentInfo</AssetDir>
 			<OutputDir>ContentInfo\avaldesign-lecu</OutputDir>
 		</AssetGroup>
-		<AssetGroup Name="LecuControlTower">
-			<Type>BGL</Type>
-			<Flags>
-				<FSXCompatibility>false</FSXCompatibility>
-			</Flags>
-			<AssetDir>PackageSources\scene\</AssetDir>
-			<OutputDir>scenery/world/scenery\</OutputDir>
-		</AssetGroup>
-		<AssetGroup Name="LecuSmallTower">
-			<Type>BGL</Type>
-			<Flags>
-				<FSXCompatibility>false</FSXCompatibility>
-			</Flags>
-			<AssetDir>PackageSources\scene\</AssetDir>
-			<OutputDir>scenery/world/scenery\</OutputDir>
-		</AssetGroup>
-		<AssetGroup Name="LecuTerminal">
-			<Type>BGL</Type>
-			<Flags>
-				<FSXCompatibility>false</FSXCompatibility>
-			</Flags>
-			<AssetDir>PackageSources\scene\</AssetDir>
-			<OutputDir>scenery/world/scenery\</OutputDir>
-		</AssetGroup>
-		<AssetGroup Name="LecuClub">
-			<Type>BGL</Type>
-			<Flags>
-				<FSXCompatibility>false</FSXCompatibility>
-			</Flags>
-			<AssetDir>PackageSources\scene\</AssetDir>
-			<OutputDir>scenery/world/scenery\</OutputDir>
-		</AssetGroup>
-		<AssetGroup Name="LecuFIO">
-			<Type>BGL</Type>
-			<Flags>
-				<FSXCompatibility>false</FSXCompatibility>
-			</Flags>
-			<AssetDir>PackageSources\scene\</AssetDir>
-			<OutputDir>scenery/world/scenery\</OutputDir>
-		</AssetGroup>
 		<AssetGroup Name="LecuGomezUlla">
 			<Type>BGL</Type>
 			<Flags>
@@ -66,12 +26,28 @@
 			<AssetDir>PackageSources\scene\</AssetDir>
 			<OutputDir>scenery/world/scenery\</OutputDir>
 		</AssetGroup>
+		<AssetGroup Name="LecuHangaresCiviles">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\scene\</AssetDir>
+			<OutputDir>scenery/world/scenery\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="LecuMaterial">
+			<Type>MaterialLib</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\materials\</AssetDir>
+			<OutputDir>MaterialLibs\LecuMaterial\</OutputDir>
+		</AssetGroup>
 		<AssetGroup Name="mymodellib">
 			<Type>ArtProj</Type>
 			<Flags>
 				<FSXCompatibility>false</FSXCompatibility>
 			</Flags>
-			<AssetDir>PackageSources\modelLib\</AssetDir>
+			<AssetDir>PackageSources\avaldesign-lecu-modelLib\</AssetDir>
 			<OutputDir>scenery/global/scenery\</OutputDir>
 		</AssetGroup>
 	</AssetGroups>
